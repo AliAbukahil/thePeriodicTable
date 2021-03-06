@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Stick";
+  src: url("../font/Stick-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: burlywood;
+}
+
+div,
+h4,
+table {
+  margin: center, solid;
+  width: 65%;
+  padding: 3px;
+  font-family: "Stick";
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+td {
+  text-align: center;
+  color: lightcoral;
+}
+
+tr,
+td {
+  border: 1.5px solid rgb(199, 47, 47);
+  border-radius: 19%;
+  padding-top: 2%;
+  padding: 4px 4px 1rem 2px;
+  text-align: center;
+  vertical-align: middle;
+  color: rgb(204, 23, 120);
+}
+tr:nth-last-child(4n + 3) {
+  background-color: #333;
+}
+
+caption {
+  font-weight: bold;
+  color: brown;
+}
+
+tr :nth-child(odd) {
+  background-color: #696969;
+  color: #fff;
+}
+
+tr :nth-of-type(5) {
+  background-color: #5056ad;
+}
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  left: 39%;
+  top: 30%;
+  position: fixed;
+  margin: -(H/2) px - (W/2) px;
+  width: Wpx;
+  height: Hpx;
+}
+h5 {
+  left: 43%;
+  top: 25%;
+  position: fixed;
+  margin: -(H/2) px - (W/2) px;
+  width: Wpx;
+  height: Hpx;
+}
+
+table {
+  position: fixed;
+  left: 35%;
+  top: 40%;
+  margin: -(H/2) px - (W/2) px;
+  width: Wpx;
+  height: Hpx;
+}
+
+html {
+  background-color: khaki;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table:hover {
+  background-color: blueviolet;
+}
+
+table,
+th:hover {
+  background-color: cadetblue;
+}
+
+tr:nth-child(3n + 2) {
+  background-color: firebrick;
+}
+
+tr:nth-child(4n + 1) :first-child {
+  background-color: chocolate;
+}
+
+td:nth-child(3) {
+  background-color: lime;
+}
+
+td:nth-child(1) {
+  background-color: palevioletred;
+}
+
+td:nth-child(5) {
+  background-color: paleturquoise;
+}
+
+td:nth-last-child(2) {
+  background-color: peru;
+}
+ */
